@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tmp_cli"
+dynamic = ["version"]
+dependencies = []
+requires-python = ">= 3.9"
+
+[project.scripts]
+tmp_cli = "tmp_cli:main_cli"
